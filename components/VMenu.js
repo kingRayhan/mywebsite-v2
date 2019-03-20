@@ -31,9 +31,9 @@ function VMenu() {
                 </a>
 
                 <span className="line" />
-                <a href="https://medium.com/@kingrayhan" target="_blank">
-                    My Blog
-                </a>
+                <Link href="/BlogList" as="/blog">
+                    <a>My Blog</a>
+                </Link>
             </nav>
         </div>
     )
