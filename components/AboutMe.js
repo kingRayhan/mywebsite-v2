@@ -1,13 +1,13 @@
 const AboutMe = () => (
-    <div class="about-me pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="section-title col-md-4">
-                    <h5 class="title">About Me</h5>
-                    <h3 class="hash-sign">#</h3>
+    <div className="about-me pt-5 pb-5">
+        <div className="container">
+            <div className="row">
+                <div className="section-title col-md-4">
+                    <h5 className="title">About Me</h5>
+                    <h3 className="hash-sign">#</h3>
                 </div>
 
-                <div class="about-me__text col-md-8 pt-4">
+                <div className="about-me__text col-md-8 pt-4">
                     <p>
                         I used to be learn coding. I love noting else coding. I
                         code in php , java , python , c++ but I love javascript
@@ -21,7 +21,7 @@ const AboutMe = () => (
                     <a
                         href="https://www.linkedin.com/in/kingrayhan/"
                         target="_blank"
-                        class="brack-btn"
+                        className="brack-btn"
                     >
                         [ LinkedIn ]
                     </a>
@@ -29,7 +29,7 @@ const AboutMe = () => (
                     <a
                         href="https://www.upwork.com/freelancers/~01f5b2b716e00e089b"
                         target="_blank"
-                        class="brack-btn"
+                        className="brack-btn"
                     >
                         [ Upwork ]
                     </a>
