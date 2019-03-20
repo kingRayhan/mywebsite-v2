@@ -25,6 +25,14 @@ const AboutMe = () => (
                     >
                         [ LinkedIn ]
                     </a>
+                    <a
+                        href="/static/cv.pdf"
+                        download
+                        target="_blank"
+                        className="brack-btn"
+                    >
+                        [ My CV ]
+                    </a>
 
                     <a
                         href="https://www.upwork.com/freelancers/~01f5b2b716e00e089b"
